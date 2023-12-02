@@ -1,0 +1,9 @@
+class parent:
+    def __init__(self,color):
+        self.color=color
+class son(parent):
+    def __init__(self,color,age):
+        super().__init__(color)
+        self.age=age
+        print(self.color,self.age)
+s1=son("wheatish brown",12)
