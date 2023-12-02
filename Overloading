@@ -1,0 +1,13 @@
+class bmw:
+    def color(self):
+        print("the car is of white color")
+    def model(self):
+        print("2023")
+    def price(self):
+        print("50 Lakh")
+class hondacity(bmw):
+    def price(self):
+        print("20 Lakh")
+h1=hondacity()
+h1.color()
+h1.price()
