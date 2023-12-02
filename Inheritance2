@@ -1,0 +1,11 @@
+class circle:
+        pass
+    def circumference(self):
+        c=2*22/7*self.r
+        print("the circumference is :",c)
+r1=circle()
+r1.r=int(input("enter the radius for circle 1:",))
+r1.circumference()
+r2=circle()
+r2.r=int(input("enter the radius for circle 2:",))
+r2.circumference()
