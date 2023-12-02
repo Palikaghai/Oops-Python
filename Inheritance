@@ -1,0 +1,17 @@
+class student:
+    def __init__(self,nm,age,mk):
+        self.name=nm
+        self.age=age
+        self.marks=mk
+    def msg(self):
+        if c>90:
+            print(self.name,"has outstanding performance")
+        else:
+            print(self.name,"has poor performance")
+for i in range(3):           
+    a=input("enter your name")
+    b=int(input("enter your age"))
+    c=int(input("enter your marks"))
+    s1=student(a,b,c)
+    print(s1.name,s1.age,s1.marks)
+s1.msg()
